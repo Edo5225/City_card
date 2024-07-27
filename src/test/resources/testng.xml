@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest">
+    <test verbose="2" preserve-order="true" name="C:/Project_QA/CityCardTest">
+        <classes>
+            <class name="tests.MobilePayment.MobileAgreementTest">
+                <methods>
+                    <include name="checkAggrementyInMobilePage"/>
+                </methods>
+            </class>
+            <class name="tests.CharityPage.CharityAgreementTest">
+                <methods>
+                    <include name="checkAggreementInCharityPage"/>
+                </methods>
+            </class>
+            <class name="tests.CharityPage.CharityTest">
+                <methods>
+                    <include name="checkPaymentCharity"/>
+                </methods>
+            </class>
+            <class name="tests.MobilePayment.MobileTest">
+                <methods>
+                    <include name="checkPaymentWithMinimalAmount"/>
+                    <include name="checkPaymentWithDefaultAmount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
