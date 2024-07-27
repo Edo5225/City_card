@@ -9,6 +9,7 @@
     <name>ADS</name>
     <url>http://maven.apache.org</url>
     <build>
+        <defaultGoal>test</defaultGoal>
 
         <plugins>
             <plugin>
