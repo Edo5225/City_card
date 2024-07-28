@@ -5,7 +5,6 @@ import tests.Base.BaseTest;
 
 public class CharityTest extends BaseTest {
     @Test
-    @Description("[pos]Перевод на благотворительность")
     public void checkPaymentCharity(){
         basePage.open("https://citycard.ru");
         cityCardHomePage

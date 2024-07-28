@@ -6,7 +6,6 @@ import tests.Base.BaseTest;
 
 public class CharityAgreementTest extends BaseTest {
     @Test
-    @Description("[pos]Переход на страницу пользовательского соглашения со страницы благотворительности")
     public void checkAggreementInCharityPage(){
         basePage.open("https://citycard.ru/");
         cityCardHomePage
